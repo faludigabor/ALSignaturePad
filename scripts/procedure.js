@@ -8,6 +8,7 @@ background.src = Microsoft.Dynamics.NAV.GetImageResource("Images/demoimage.png")
 background.onload = function() {
     ctx.drawImage(background, 0, 0);
 };
+background.setAttribute('crossorigin', 'anonymous');
 // Adjust canvas coordinate space taking into account pixel ratio,
 // to make it look crisp on mobile devices.
 // This also causes canvas to be cleared.

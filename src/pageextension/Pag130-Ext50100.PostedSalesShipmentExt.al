@@ -34,6 +34,8 @@ pageextension 50100 "PostedSalesShipmentExt" extends "Posted Sales Shipment" //1
                 end;
             }
 
+
+
             action("Get Token")
             {
                 ApplicationArea = All;

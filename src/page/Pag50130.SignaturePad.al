@@ -112,7 +112,8 @@ page 50130 "Signature Pad"
             action("Save Signature")
             {
                 ApplicationArea = All;
-
+                Promoted = true;
+                PromotedIsBig = true;
 
                 trigger OnAction()
                 var
