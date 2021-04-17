@@ -7,6 +7,7 @@ page 50130 "Signature Pad"
     ModifyAllowed = true;
     DeleteAllowed = true;
     Editable = true;
+    Permissions = tabledata "Sales Shipment Header" = RIMD;
 
 
     layout

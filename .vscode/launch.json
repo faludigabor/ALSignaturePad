@@ -10,7 +10,9 @@
             "breakOnError": true,
             "launchBrowser": true,
             "enableLongRunningSqlStatements": true,
-            "enableSqlInformationDebugger": true
+            "enableSqlInformationDebugger": true,
+            "environmentName": "hrpdemosandbox",
+            "environmentType": "Sandbox"
         }
     ]
 }
