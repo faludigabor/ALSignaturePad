@@ -14,7 +14,7 @@ controladdin "SignaturePad_Ctrl"
         'scripts/signature_pad.umd.js',
         'scripts/procedure.js';
     StyleSheets = 'scripts/Signature_css.css';
-
+    Images = 'images/demoimage.png';
 
     event OnControlAddInReady();
     procedure SaveSignature(Image: Text);
