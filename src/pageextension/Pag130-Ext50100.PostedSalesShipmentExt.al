@@ -21,6 +21,8 @@ pageextension 50100 "PostedSalesShipmentExt" extends "Posted Sales Shipment" //1
             action("Record Signature")
             {
                 ApplicationArea = All;
+                Promoted = true;
+                PromotedIsBig = true;
 
                 trigger OnAction()
                 var
